@@ -1,0 +1,63 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+
+      <ion-nav-back-button></ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+
+      <ion-nav-buttons side="right">
+          <a href="#/app/search"><button class="button button-icon ion-android-search"></button></a>
+      </ion-nav-buttons>
+
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+        <ion-item menu-close href="#/app/settings" class="button button-icon icon ion-gear-a"></ion-item>
+      <h1 class="title" style="cursor: pointer" menu-close href="#/app/main">Where Ya At?!</h1>
+
+        <!--<img src="http://placehold.it/50x50" class="">-->
+    </ion-header-bar>
+
+    <ion-content>
+        <div>
+        <img src="https://placeimg.com/275/170/people" class="">
+         <p class="username">User Name Here</p>
+        </div>
+      <ion-list>
+       <!-- <ion-item menu-close ng-click="login()">
+          Login
+        </ion-item>-->
+
+
+        <ion-item menu-close href="#/app/camera" class="item-adjust" id="Camera">
+          Camera
+        </ion-item>
+          <ion-item menu-close href="#/app/my-gallery" class="item-adjust" id="MyGallery">
+              My Gallery
+          </ion-item>
+        <ion-item menu-close  class="item-adjust" id="Favs">
+          <a href="#/app/favorites">Favorites</a>
+        </ion-item>
+        <ion-item menu-close href="#/app/followers" class="item-adjust" id="Fans">
+          Followers
+        </ion-item>
+          <ion-item menu-close ng-click="logout()"  class="item-adjust" id="Logout">
+              Log Out
+          </ion-item>
+      </ion-list>
+    </ion-content>
+
+      <!--<ion-footer-bar>
+          <div class="bar bar-footer">
+              <div class="title"><h4>About This App</h4></div>
+          </div>
+      </ion-footer-bar>-->
+  </ion-side-menu>
+
+</ion-side-menus>

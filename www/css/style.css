@@ -1,0 +1,99 @@
+/* Empty. Add your own CSS if you like */
+
+#Camera{
+    background: #5E2605;
+}
+
+#MyGallery{
+    background: #FBA16C;
+    color: white;
+}
+
+#Favs{
+    background: #FF6103;
+}
+
+#Settings{
+    background:#964514;
+}
+
+#Fans{
+    background: #E47833;
+}
+
+#Logout{
+    background: #FF7722;
+}
+
+#Favs a, #Camera a, #MyGallery a, #Fans a, #Favs a, #Settings a, #Logout{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding:30px;
+}
+
+#Favs, #Camera, #MyGallery, #Fans, #Settings, #Logout{
+    border:none;
+}
+
+.buttonsubnav{
+    font-size: 20px!important;
+    padding-top: 3px;
+}
+
+.img-margin{
+    margin:2px;
+    width: 50%;
+    height: 100%;
+}
+
+.username{
+    background: black none repeat scroll 0 0;
+    color: white;
+    margin-top: -24px;
+    opacity: 0.5;
+    text-align: center;
+    z-index: 15;
+}
+
+h1.title {
+    color: white;
+}
+
+.searchbar{
+    background: none;
+    border-bottom: 3px solid orange!important;
+    color: white!important;
+    width: 80%;
+}
+
+.SearchView.pane{
+  background: #666;
+    opacity: 0.7;
+}
+
+.columnlinebreak{
+ border-bottom: 1px solid #444;
+   margin:10px;
+}
+
+.even{
+background: red;
+}
+
+.odd{
+background:darkviolet;
+}
+
+.followerinfo{
+  margin-left:25px;
+}
+
+.followerpic{
+    margin-top:5px;
+}
+
+.picscount{
+    font-size:30px;
+    color:lawngreen;
+}

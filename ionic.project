@@ -1,0 +1,12 @@
+{
+  "name": "WhereRU",
+  "app_id": "da544f36",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
