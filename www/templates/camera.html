@@ -1,10 +1,22 @@
 <ion-view view-title="Camera">
 
-    <ion-content padding="true">
+    <ion-content ng-controller="CameraCtrl">
         <br><br>
         <div class="row">
-        <button ng-click="getPhoto()" class="button">Take Photo</button>
-        <img ng-src="{{lastPhoto}}" id="lastphoto">
+            <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+            <img class="cam-photo-position" ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+        <img ng-src="{{lastPhoto}}" id="lastphoto"><br>
+
+        </div>
+
+        <button class="button columnlinebreak" ng-click="takePicture()">Take Photo</button>
+        <button class="button columnlinebreak" ng-click="takePicture()">From Gallery...</button>
+        <div class="row cam-scroll-list">
+
+            <img src="http://placehold.it/300x300" class="img-margin">
+            <img src="http://placehold.it/300x300" class="img-margin">
+            <img src="http://placehold.it/300x300" class="img-margin">
+            <img src="http://placehold.it/300x300" class="img-margin">
         </div>
     </ion-content>
 

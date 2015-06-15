@@ -27,7 +27,7 @@
     <ion-content>
         <div>
         <img src="https://placeimg.com/275/170/people" class="">
-         <p class="username">User Name Here</p>
+         <p class="username">User Name Herey</p>
         </div>
       <ion-list>
        <!-- <ion-item menu-close ng-click="login()">
@@ -35,24 +35,36 @@
         </ion-item>-->
 
 
-        <ion-item menu-close href="#/app/camera" class="item-adjust" id="Camera">
-          Camera
-        </ion-item>
-          <ion-item menu-close href="#/app/my-gallery" class="item-adjust" id="MyGallery">
+          <a href="#/app/camera">
+          <ion-item menu-close class="item-adjust" id="Camera">
+         Camera
+        </ion-item></a>
+
+          <a href="#/app/my-gallery">
+          <ion-item menu-close class="item-adjust" id="MyGallery">
               My Gallery
           </ion-item>
-        <ion-item menu-close  class="item-adjust" id="Favs">
-          <a href="#/app/favorites">Favorites</a>
+          </a>
+
+          <a href="#/app/favorites">
+              <ion-item menu-close  class="item-adjust" id="Favs">
+         Favorites
         </ion-item>
-        <ion-item menu-close href="#/app/followers" class="item-adjust" id="Fans">
+          </a>
+
+          <a href="#/app/followers">
+        <ion-item menu-close class="item-adjust" id="Fans">
           Followers
         </ion-item>
-          <ion-item menu-close ng-click="logout()"  class="item-adjust" id="Logout">
-              Log Out
-          </ion-item>
+          </a>
+
       </ion-list>
+
     </ion-content>
 
+      <ion-footer-bar id="Logout" menu-close ng-click="logout()">
+          Log Out
+      </ion-footer-bar>
       <!--<ion-footer-bar>
           <div class="bar bar-footer">
               <div class="title"><h4>About This App</h4></div>

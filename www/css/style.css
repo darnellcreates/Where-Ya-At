@@ -25,15 +25,20 @@
     background: #FF7722;
 }
 
-#Favs a, #Camera a, #MyGallery a, #Fans a, #Favs a, #Settings a, #Logout{
+#Favs a, #Camera a, #MyGallery a, #Fans a, #Favs a, #Settings a,{
     color: white;
     font-size: 20px;
     text-align: left;
     padding:30px;
+    text-decoration: none;
 }
 
-#Favs, #Camera, #MyGallery, #Fans, #Settings, #Logout{
-    border:none;
+#Favs, #Camera, #MyGallery, #Fans, #Settings{
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    margin: 2%;
+    width: 45%;
 }
 
 .buttonsubnav{
@@ -96,4 +101,10 @@ background:darkviolet;
 .picscount{
     font-size:30px;
     color:lawngreen;
+}
+
+.cam-photo-position {
+    width: 100%;
+    height: 40%;
+    margin: 10px;
 }
