@@ -12,10 +12,8 @@
   right: 0;
   left: 0;
   z-index: $z-index-bar;
-
   box-sizing: border-box;
   padding: $bar-padding-portrait;
-
   width: 100%;
   height: $bar-height;
   border-width: 0;
@@ -23,7 +21,7 @@
   border-top: 1px solid transparent;
   border-bottom: 1px solid $bar-default-border;
 
-  background-color: $bar-default-bg;
+  background-color: white;
 
   /* border-width: 1px will actually create 2 device pixels on retina */
   /* this nifty trick sets an actual 1px border on hi-res displays */

@@ -1,8 +1,15 @@
 /* Empty. Add your own CSS if you like */
 
 #Camera{
-    background: #5E2605;
+    background: #5E2605 url('../img/menu-images/Camera.png');
+    color:white;
 }
+
+#LiveStream{
+    background: #007aff url('../img/menu-images/Feed.png');
+    color:white;
+}
+
 
 #MyGallery{
     background: #FBA16C;
@@ -25,7 +32,7 @@
     background: #FF7722;
 }
 
-#Favs a, #Camera a, #MyGallery a, #Fans a, #Favs a, #Settings a,{
+#Favs a, #Camera a, #MyGallery a, #Fans a, #Favs a, #Settings a, #LiveStream a{
     color: white;
     font-size: 20px;
     text-align: left;
@@ -33,7 +40,7 @@
     text-decoration: none;
 }
 
-#Favs, #Camera, #MyGallery, #Fans, #Settings{
+#Favs, #Camera, #MyGallery, #Fans, #Settings, #LiveStream, #Logout{
     border: medium none;
     border-radius: 0;
     float: left;

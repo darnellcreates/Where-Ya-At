@@ -34,6 +34,10 @@
           Login
         </ion-item>-->
 
+          <a href="#/app/main">
+              <ion-item menu-close class="item-adjust" id="LiveStream">
+               Stream
+              </ion-item></a>
 
           <a href="#/app/camera">
           <ion-item menu-close class="item-adjust" id="Camera">
@@ -58,13 +62,16 @@
         </ion-item>
           </a>
 
+          <a menu-close ng-click="logout()">
+              <ion-item menu-close class="item-adjust" id="Logout">
+                  Log Out
+              </ion-item>
+          </a>
+
       </ion-list>
 
     </ion-content>
 
-      <ion-footer-bar id="Logout" menu-close ng-click="logout()">
-          Log Out
-      </ion-footer-bar>
       <!--<ion-footer-bar>
           <div class="bar bar-footer">
               <div class="title"><h4>About This App</h4></div>
